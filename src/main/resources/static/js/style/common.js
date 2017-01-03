@@ -1,9 +1,9 @@
 $(function(){
 	// “显示全部”与“收起”
 	$(document).on("click", ".expand", function(){
-		var $parent = $(this).parent();
-		$parent.addClass("hide");
-		$parent.next().removeClass("hide");	
+		// var $parent = $(this).parent();
+		// $parent.addClass("hide");
+		// $parent.next().removeClass("hide");
 	});
 	$(document).on("click", ".pack-up", function(){
 		var $parent = $(this).parent();
